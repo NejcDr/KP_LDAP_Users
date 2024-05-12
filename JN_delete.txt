@@ -1,0 +1,5 @@
+dn: uid=janez,ou=People,dc=sk-01,dc=com
+changetype: delete
+
+dn: cn=miners,ou=Groups,dc=sk-01,dc=com
+changetype: delete
