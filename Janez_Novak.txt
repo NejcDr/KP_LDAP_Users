@@ -1,0 +1,28 @@
+dn: ou=People,dc=sk-01,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=sk-01,dc=com
+objectClass: organizationalUnit
+ou: Groups
+
+dn: cn=miners,ou=Groups,dc=sk-01,dc=com
+objectClass: posixGroup
+cn: uporabniki
+gidNumber: 5000
+
+dn: uid=john,ou=People,dc=sk-01,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: janez
+sn: Novak
+givenName: Janez
+cn: Janez Novak
+displayName: Janez Novak
+uidNumber: 10000
+gidNumber: 5000
+userPassword: {CRYPT}LjgmGi4NT32wU
+gecos: Janez Novak
+loginShell: /bin/bash
+homeDirectory: /home/janez
