@@ -6,7 +6,7 @@ dn: ou=Groups,dc=sk-01,dc=com
 objectClass: organizationalUnit
 ou: Groups
 
-dn: cn=miners,ou=Groups,dc=sk-01,dc=com
+dn: cn=uporabniki,ou=Groups,dc=sk-01,dc=com
 objectClass: posixGroup
 cn: uporabniki
 gidNumber: 5000
