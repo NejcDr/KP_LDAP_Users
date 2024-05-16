@@ -1,3 +1,12 @@
+dn: ou=Groups,dc=example,dc=com
+objectClass: organizationalUnit
+ou: Groups
+
+dn: cn=zaposleni,ou=Groups,dc=example,dc=com
+objectClass: posixGroup
+cn: zaposleni
+gidNumber: 5000
+
 dn: uid=janez,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
 objectClass: shadowAccount
@@ -6,6 +15,8 @@ sn: Novak
 givenName: Janez
 cn: Janez Novak
 displayName: Janez Novak
+uidNumber: 10000
+gidNumber: 5000
 userPassword: {CRYPT}LjgmGi4NT32wU
 gecos: Janez Novak
 loginShell: /bin/bash
@@ -19,6 +30,8 @@ sn: Novak
 givenName: Tine
 cn: Tine Novak
 displayName: Tine Novak
+uidNumber: 11000
+gidNumber: 5000
 userPassword: {CRYPT}3tNSLgvw1nEnw
 gecos: Tine Novak
 loginShell: /bin/bash
@@ -32,6 +45,8 @@ sn: Preseren
 givenName: France
 cn: France Preseren
 displayName: France Preseren
+uidNumber: 12000
+gidNumber: 5000
 userPassword: {CRYPT}x2W.4DwDdX7lsiwvkEo7ZDYc
 gecos: France Preseren
 loginShell: /bin/bash
