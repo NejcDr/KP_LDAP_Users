@@ -1,35 +1,60 @@
+dn: ou=People,dc=sk-01,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=sk-01,dc=com
+objectClass: organizationalUnit
+ou: Groups
+
+dn: cn=zaposleni,ou=Groups,dc=sk-01,dc=com
+objectClass: posixGroup
+cn: zaposleni
+gidNumber: 5000
+
 dn: uid=janez,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
+objectClass: posixGroup
 objectClass: shadowAccount
 uid: janez
 sn: Novak
 givenName: Janez
 cn: Janez Novak
 displayName: Janez Novak
+uidNumber: 10000
+gidNumber: 5000
 userPassword: {CRYPT}LjgmGi4NT32wU
+gecos: Janez Novak
 loginShell: /bin/bash
 homeDirectory: /home/janez
 
 dn: uid=tine,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
+objectClass: posixGroup
 objectClass: shadowAccount
 uid: tine
 sn: Novak
 givenName: Tine
 cn: Tine Novak
 displayName: Tine Novak
+uidNumber: 11000
+gidNumber: 5000
 userPassword: {CRYPT}3tNSLgvw1nEnw
+gecos: Tine Novak
 loginShell: /bin/bash
 homeDirectory: /home/tine
 
 dn: uid=france,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
+objectClass: posixGroup
 objectClass: shadowAccount
 uid: france
 sn: Preseren
 givenName: France
 cn: France Preseren
 displayName: France Preseren
+uidNumber: 12000
+gidNumber: 5000
 userPassword: {CRYPT}x2W.4DwDdX7lsiwvkEo7ZDYc
+gecos: France Preseren
 loginShell: /bin/bash
 homeDirectory: /home/france
