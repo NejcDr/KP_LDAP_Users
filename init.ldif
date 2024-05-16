@@ -9,6 +9,7 @@ gidNumber: 5000
 
 dn: uid=janez,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
+objectClass: posixGroup
 objectClass: shadowAccount
 uid: janez
 sn: Novak
@@ -24,6 +25,7 @@ homeDirectory: /home/janez
 
 dn: uid=tine,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
+objectClass: posixGroup
 objectClass: shadowAccount
 uid: tine
 sn: Novak
@@ -39,6 +41,7 @@ homeDirectory: /home/tine
 
 dn: uid=france,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
+objectClass: posixGroup
 objectClass: shadowAccount
 uid: france
 sn: Preseren
