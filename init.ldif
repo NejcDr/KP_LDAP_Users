@@ -1,4 +1,6 @@
 dn: uid=janez,ou=People,dc=sk-01,dc=com
+objectClass: inetOrgPerson
+objectClass: shadowAccount
 uid: janez
 sn: Novak
 givenName: Janez
@@ -10,6 +12,8 @@ loginShell: /bin/bash
 homeDirectory: /home/janez
 
 dn: uid=tine,ou=People,dc=sk-01,dc=com
+objectClass: inetOrgPerson
+objectClass: shadowAccount
 uid: tine
 sn: Novak
 givenName: Tine
@@ -21,6 +25,8 @@ loginShell: /bin/bash
 homeDirectory: /home/tine
 
 dn: uid=france,ou=People,dc=sk-01,dc=com
+objectClass: inetOrgPerson
+objectClass: shadowAccount
 uid: france
 sn: Preseren
 givenName: France
