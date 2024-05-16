@@ -7,7 +7,6 @@ givenName: Janez
 cn: Janez Novak
 displayName: Janez Novak
 userPassword: {CRYPT}LjgmGi4NT32wU
-gecos: Janez Novak
 loginShell: /bin/bash
 homeDirectory: /home/janez
 
@@ -20,7 +19,6 @@ givenName: Tine
 cn: Tine Novak
 displayName: Tine Novak
 userPassword: {CRYPT}3tNSLgvw1nEnw
-gecos: Tine Novak
 loginShell: /bin/bash
 homeDirectory: /home/tine
 
@@ -33,6 +31,5 @@ givenName: France
 cn: France Preseren
 displayName: France Preseren
 userPassword: {CRYPT}x2W.4DwDdX7lsiwvkEo7ZDYc
-gecos: France Preseren
 loginShell: /bin/bash
 homeDirectory: /home/france
