@@ -1,8 +1,8 @@
-dn: ou=Groups,dc=example,dc=com
+dn: ou=Groups,dc=sk-01,dc=com
 objectClass: organizationalUnit
 ou: Groups
 
-dn: cn=zaposleni,ou=Groups,dc=example,dc=com
+dn: cn=zaposleni,ou=Groups,dc=sk-01,dc=com
 objectClass: posixGroup
 cn: zaposleni
 gidNumber: 5000
