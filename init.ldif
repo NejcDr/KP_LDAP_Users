@@ -1,7 +1,3 @@
-dn: ou=People,dc=sk-01,dc=com
-objectClass: organizationalUnit
-ou: People
-
 dn: uid=janez,ou=People,dc=sk-01,dc=com
 objectClass: inetOrgPerson
 objectClass: shadowAccount
