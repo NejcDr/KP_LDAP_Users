@@ -1,3 +1,7 @@
+dn: ou=People,dc=sk-01,dc=com
+objectClass: organizationalUnit
+ou: People
+
 dn: ou=Groups,dc=sk-01,dc=com
 objectClass: organizationalUnit
 ou: Groups
